@@ -1,4 +1,3 @@
-
 // Landing page para Grupo Premium de Dados
 
 import HeroSection from "@/components/HeroSection";
@@ -10,11 +9,13 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ScarcitySection from "@/components/ScarcitySection";
 import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
+import VideoSection from "@/components/VideoSection";
 
 const Index = () => {
   return (
     <main className="bg-background min-h-screen w-full flex flex-col items-center">
       <HeroSection />
+      <VideoSection /> {/* Seção do vídeo entre a Hero e a Social Proof */}
       <SocialProofSection />
       <BenefitsSection />
       <HowItWorksSection />
@@ -28,4 +29,3 @@ const Index = () => {
 };
 
 export default Index;
-
