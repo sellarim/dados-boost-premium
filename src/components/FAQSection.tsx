@@ -4,16 +4,27 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const faqs = [
   {
     question: "Preciso ter experiência?",
-    answer: "Não. O grupo é voltado tanto para iniciantes quanto para quem já atua.",
+    answer: "Não! O grupo foi criado tanto para iniciantes quanto para quem já atua na área. O que importa é estar buscando oportunidades de verdade.",
   },
   {
     question: "Garante emprego?",
-    answer: "Não garantimos vagas fechadas. Garantimos acesso a oportunidades reais e orientação de quem está no mercado.",
+    answer: "Não garantimos emprego, mas garantimos acesso às melhores oportunidades — antes de todo mundo. É você quem decide o quanto quer aproveitar isso.",
   },
   {
     question: "Qual o valor?",
-    answer:
-      "O valor aparece no botão de pagamento. É acessível e sem mensalidade oculta.",
+    answer: "Custa R$19,90 por mês nessa promoção.",
+  },
+  {
+    question: "Como as vagas são escolhidas?",
+    answer: "Eu faço a curadoria pessoalmente, usando filtros estratégicos para encontrar vagas reais, de empresas sérias, com foco em quem quer entrar ou crescer na área de dados.",
+  },
+  {
+    question: "Tem grupo gratuito também?",
+    answer: "Por enquanto não. A parte gratuita é no meu perfil no Linkedin, lá as vagas aparecem 3 dias depois do que no grupo.",
+  },
+  {
+    question: "Funciona mesmo?",
+    answer: "Mais de 90 pessoas já estão no grupo e dezenas já foram chamadas para entrevistas. É real. Você só precisa entrar e participar.",
   },
 ];
 
