@@ -9,16 +9,16 @@ export default function TestimonialsSection() {
         <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
           <div className="flex-1 flex flex-col items-center">
             <div className="w-full max-w-md p-5 bg-white border rounded-lg shadow-md relative before:content-[''] before:absolute before:-left-5 before:top-4 before:w-2 before:h-8 before:bg-blue-200 before:rounded-r-lg">
-              <div className="text-muted-foreground text-sm mb-2">Mensagem enviada por membro:</div>
+              <div className="text-muted-foreground text-sm mb-2 font-semibold">Bruno:</div>
               <blockquote className="text-lg mb-1">
-                “Entrei no grupo há 10 dias e já fui chamado pra 2 entrevistas!”
+                “Tava buscando reposicionamento de mercado, e graças ao teu grupo, estou na fase final de dois processos seletivos de vagas excelentes”
               </blockquote>
-              <div className="text-xs text-right text-gray-400">via Telegram</div>
+              <div className="text-xs text-right text-gray-400">via WhatsApp</div>
             </div>
           </div>
           <div className="flex-1 flex flex-col items-center">
             <div className="w-full max-w-md p-5 bg-white border rounded-lg shadow-md relative before:content-[''] before:absolute before:-left-5 before:top-4 before:w-2 before:h-8 before:bg-green-200 before:rounded-r-lg">
-              <div className="text-muted-foreground text-sm mb-2">Mensagem enviada por membro:</div>
+              <div className="text-muted-foreground text-sm mb-2 font-semibold">Mensagem enviada por membro:</div>
               <blockquote className="text-lg mb-1">
                 “Achei uma vaga na Argentina que nem estava no LinkedIn. Obrigado!”
               </blockquote>
