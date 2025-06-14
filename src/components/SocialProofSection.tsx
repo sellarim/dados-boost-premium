@@ -28,16 +28,24 @@ export default function SocialProofSection() {
   return (
     <section className="w-full py-10 bg-gray-50 border-b border-muted">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8 text-foreground">Confiança de quem vive a área de dados</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {stats.map(({ icon: Icon, label }, i) => (
-            <div key={i} className="flex items-center space-x-4 bg-white rounded-lg shadow-sm py-6 px-6 border hover:scale-105 transition-all">
-              <Icon size={32} strokeWidth={2.2} color="#0A66C2" />
-              <span className="text-lg text-foreground">{label}</span>
-            </div>
-          ))}
+        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8 text-foreground">
+          Confiança de quem vive a área de dados
+        </h2>
+        <div className="w-full flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:max-w-4xl">
+            {stats.map(({ icon: Icon, label }, i) => (
+              <div
+                key={i}
+                className="flex items-center space-x-4 bg-white rounded-lg shadow-sm py-6 px-6 border hover:scale-105 transition-all"
+              >
+                <Icon size={32} strokeWidth={2.2} color="#0A66C2" />
+                <span className="text-lg text-foreground">{label}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
   );
 }
+
