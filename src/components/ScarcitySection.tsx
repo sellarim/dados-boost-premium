@@ -11,7 +11,6 @@ export default function ScarcitySection() {
         <ul className="mb-7 text-lg w-full max-w-2xl flex flex-col gap-2">
           <li>✋ Mantemos a qualidade e o foco dos membros</li>
           <li>⏳ As inscrições podem ser fechadas a qualquer momento</li>
-          <li>📥 Ao entrar agora, você também recebe as últimas vagas já enviadas</li>
         </ul>
         <Button
           size="lg"
@@ -24,3 +23,4 @@ export default function ScarcitySection() {
     </section>
   );
 }
+
