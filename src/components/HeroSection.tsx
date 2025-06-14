@@ -4,19 +4,47 @@ import { Button } from "@/components/ui/button";
 export default function HeroSection() {
   return (
     <section className="w-full bg-white py-16 px-4 flex flex-col items-center justify-center border-b border-muted">
-      <h1 className="text-4xl md:text-5xl font-bold mb-4 max-w-2xl text-center" style={{ color: "#0A66C2" }}>
-        O grupo premium de dados com +58 mil seguidores que entrega resultados reais.
-      </h1>
-      <p className="text-lg md:text-xl mb-8 max-w-xl text-center text-muted-foreground">
-        Receba vagas exclusivas, dicas práticas e oportunidades reais antes de todo mundo. Vem acelerar sua carreira na área de dados.
-      </p>
-      <Button
-        size="lg"
-        className="px-8 py-5 text-lg font-semibold rounded-lg shadow-md transition hover:scale-105"
-        style={{ backgroundColor: "#0A66C2", color: "#fff" }}
-      >
-        Entrar agora no grupo premium
-      </Button>
+      <div className="flex flex-col items-center">
+        <div className="flex flex-row items-center justify-center mb-4 flex-wrap gap-2">
+          <h1
+            className="text-4xl md:text-5xl font-bold max-w-2xl text-center"
+            style={{ color: "#0A66C2" }}
+          >
+            Vagas fresquinhas em dados, todo dia, direto no seu WhatsApp.
+          </h1>
+          {/* WhatsApp SVG ao lado do título */}
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="WhatsApp"
+            className="ml-2 shrink-0"
+          >
+            <circle cx="16" cy="16" r="16" fill="#25D366" />
+            <path
+              d="M16.006 8.252c-4.242 0-7.69 3.286-7.69 7.334 
+              0 1.446.446 2.841 1.299 4.032l-1.422 4.242 
+              4.398-1.366a8.096 8.096 0 0 0 3.415.734h.003c4.241 0 
+              7.687-3.286 7.687-7.334s-3.444-7.334-7.687-7.334zm3.995 
+              11.086c-.168.474-.982.921-1.344.978-.34.054-.758.077-1.223-.078-.283-.087-.64-.21-1.105-.41-1.943-.81-3.215-2.693-3.313-2.823-.098-.13-.788-1.053-.788-2.008 
+              0-.954.5-1.425.676-1.624.159-.181.419-.262.654-.178.233.082.522.186.594.366.072.181.245.594.267.636.022.042.036.09.007.146-.028.056-.042.09-.084.136-.04.045-.084.098-.12.136-.04.045-.082.095-.035.188.048.093.214.356.458.577.206.187.368.416.589.646.155.173.311.349.473.522.07.078.139.156.21.234.068.076.117.078.167.045.044-.03.189-.222.24-.298.05-.077.1-.063.171-.037.07.025.447.211.525.25.078.04.13.059.149.093.019.034.019.197-.037.388z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        <p className="text-lg md:text-xl mb-8 max-w-xl text-center text-muted-foreground">
+          Receba vagas exclusivas, dicas práticas e oportunidades reais antes de todo mundo. Vem acelerar sua carreira na área de dados.
+        </p>
+        <Button
+          size="lg"
+          className="px-8 py-5 text-lg font-semibold rounded-lg shadow-md transition hover:scale-105"
+          style={{ backgroundColor: "#0A66C2", color: "#fff" }}
+        >
+          Entrar agora no grupo premium
+        </Button>
+      </div>
     </section>
   );
 }
