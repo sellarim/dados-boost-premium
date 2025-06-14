@@ -6,7 +6,7 @@ export default function TestimonialsSection() {
         <h2 className="text-2xl md:text-3xl font-semibold text-center mb-7 text-foreground">
           Quem entrou está um passo à frente
         </h2>
-        <div className="flex flex-col md:flex-row gap-8 justify-center">
+        <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
           <div className="flex-1 flex flex-col items-center">
             <div className="w-full max-w-md p-5 bg-white border rounded-lg shadow-md relative before:content-[''] before:absolute before:-left-5 before:top-4 before:w-2 before:h-8 before:bg-blue-200 before:rounded-r-lg">
               <div className="text-muted-foreground text-sm mb-2">Mensagem enviada por membro:</div>
