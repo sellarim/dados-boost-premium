@@ -1,26 +1,23 @@
 
-const forWhom = [
-  { emoji: "🎯", text: "Está migrando para a área de dados" },
-  { emoji: "🚀", text: "Já atua na área e quer crescer mais rápido" },
-  { emoji: "👶", text: "Está começando e quer se posicionar" },
-  { emoji: "💼", text: "Quer ter vantagem sobre a concorrência" },
-];
-
 export default function WhoIsForSection() {
   return (
     <section className="w-full bg-white py-14 px-4 border-b border-muted">
-      <div className="max-w-3xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-7 text-foreground">
-          Esse grupo é ideal para você se:
-        </h2>
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 text-lg">
-          {forWhom.map(({ emoji, text }) => (
-            <li key={text} className="flex items-center bg-gray-50 rounded-lg px-5 py-4 border shadow-sm">
-              <span className="text-2xl mr-4">{emoji}</span>
-              {text}
-            </li>
-          ))}
-        </ul>
+      <div className="max-w-3xl mx-auto flex flex-col items-center">
+        <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
+          {/* Card Preço Antigo */}
+          <div className="bg-gray-100 border shadow-sm rounded-xl flex flex-col items-center p-7 w-full md:w-64">
+            <span className="text-md text-gray-500 mb-2">De:</span>
+            <span className="text-3xl md:text-4xl font-bold text-gray-400 line-through mb-1">R$49,90</span>
+          </div>
+          {/* Card Preço Novo */}
+          <div className="bg-primary text-white border shadow-lg rounded-xl flex flex-col items-center p-7 w-full md:w-64 scale-105">
+            <span className="text-md mb-2 opacity-80">Agora</span>
+            <span className="text-4xl md:text-5xl font-bold mb-1 drop-shadow">R$19,90</span>
+            <span className="text-sm font-semibold bg-white text-primary px-3 py-1 rounded mt-2 shadow-md">
+              preço promocional
+            </span>
+          </div>
+        </div>
       </div>
     </section>
   );
