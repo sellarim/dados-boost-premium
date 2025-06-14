@@ -22,13 +22,15 @@ export default function HeroSection() {
         <p className="text-lg md:text-xl mb-8 max-w-xl text-center text-muted-foreground">
           Receba vagas exclusivas, dicas práticas e oportunidades reais antes de todo mundo. Vem acelerar sua carreira na área de dados.
         </p>
-        <Button
-          size="lg"
-          className="px-8 py-5 text-lg font-semibold rounded-lg shadow-md transition hover:scale-105"
+        <a
+          href="https://pay.kiwify.com.br/i2ssPJu"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{ backgroundColor: "#0A66C2", color: "#fff" }}
+          className="inline-block px-8 py-5 text-lg font-semibold rounded-lg shadow-md transition hover:scale-105 w-auto text-center"
         >
           Entrar agora no grupo premium
-        </Button>
+        </a>
       </div>
     </section>
   );

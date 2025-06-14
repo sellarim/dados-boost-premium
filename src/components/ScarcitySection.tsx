@@ -12,15 +12,16 @@ export default function ScarcitySection() {
           <li>✋ Mantemos a qualidade e o foco dos membros</li>
           <li>⏳ As inscrições podem ser fechadas a qualquer momento</li>
         </ul>
-        <Button
-          size="lg"
-          className="w-full md:w-auto px-8 py-5 text-lg font-semibold rounded-lg shadow-md transition hover:scale-105"
+        <a
+          href="https://pay.kiwify.com.br/i2ssPJu"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{ backgroundColor: "#0A66C2", color: "#fff" }}
+          className="inline-block w-full md:w-auto px-8 py-5 text-lg font-semibold rounded-lg shadow-md transition hover:scale-105 text-center"
         >
           Quero entrar agora no grupo premium
-        </Button>
+        </a>
       </div>
     </section>
   );
 }
-
