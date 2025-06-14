@@ -8,10 +8,16 @@ export default function ScarcitySection() {
         <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6 text-foreground">
           Vagas no grupo são limitadas
         </h2>
-        <ul className="mb-7 text-lg w-full max-w-2xl flex flex-col gap-2">
-          <li>✋ Mantemos a qualidade e o foco dos membros</li>
-          <li>⏳ As inscrições podem ser fechadas a qualquer momento</li>
-        </ul>
+        <div className="flex flex-col md:flex-row gap-4 mb-7 w-full max-w-2xl">
+          <div className="flex-1 bg-blue-50 border border-blue-200 rounded-lg px-6 py-5 flex flex-row items-center gap-2 shadow-sm">
+            <span className="text-2xl select-none">✋</span>
+            <span className="text-lg">Mantemos a qualidade e o foco dos membros</span>
+          </div>
+          <div className="flex-1 bg-amber-50 border border-amber-200 rounded-lg px-6 py-5 flex flex-row items-center gap-2 shadow-sm">
+            <span className="text-2xl select-none">⏳</span>
+            <span className="text-lg">As inscrições podem ser fechadas a qualquer momento</span>
+          </div>
+        </div>
         <a
           href="https://pay.kiwify.com.br/i2ssPJu"
           target="_blank"
