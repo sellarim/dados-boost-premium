@@ -35,7 +35,7 @@ export default function HeroSection() {
         {/* Prova social abaixo do CTA */}
         <div className="flex items-center gap-2 mt-4 bg-green-50 border border-green-200 rounded-xl px-5 py-3 shadow-sm animate-fade-in">
           <img
-            src="/lovable-uploads/fce2c06c-846b-4c6b-9f33-6fd157d48419.png"
+            src="lovable-uploads/fce2c06c-846b-4c6b-9f33-6fd157d48419.png"
             alt="WhatsApp"
             className="w-7 h-7"
           />
