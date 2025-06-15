@@ -36,7 +36,7 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <section className="w-full bg-background py-14 px-4 border-b border-muted transition-colors">
+    <section className="w-full bg-white py-14 px-4 border-b border-muted">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold text-center mb-7 text-foreground">
           O que você encontra no grupo premium
@@ -64,10 +64,9 @@ export default function BenefitsSection() {
                 {/* Frente */}
                 <div className="
                   absolute inset-0 flex flex-col items-center justify-center 
-                  bg-card rounded-xl py-6 px-4 shadow-sm border
+                  bg-gray-50 rounded-xl py-6 px-4 shadow-sm border
                   transition 
                   [backface-visibility:hidden]
-                  text-foreground
                 ">
                   <span className="text-3xl mb-3">{emoji}</span>
                   <span className="text-lg md:text-xl text-center">{text}</span>
@@ -75,7 +74,7 @@ export default function BenefitsSection() {
                 {/* Verso */}
                 <div className="
                   absolute inset-0 flex flex-col items-center justify-center 
-                  bg-primary text-primary-foreground rounded-xl py-6 px-4 shadow-sm border 
+                  bg-primary text-white rounded-xl py-6 px-4 shadow-sm border 
                   [backface-visibility:hidden] 
                   [transform:rotateY(180deg)]
                   text-center

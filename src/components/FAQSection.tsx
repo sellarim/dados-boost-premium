@@ -30,7 +30,7 @@ const faqs = [
 
 export default function FAQSection() {
   return (
-    <section className="w-full bg-background py-14 px-4 border-b border-muted transition-colors">
+    <section className="w-full bg-gray-50 py-14 px-4 border-b border-muted">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold text-center mb-7 text-foreground">
           Dúvidas frequentes
