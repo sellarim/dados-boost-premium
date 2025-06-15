@@ -4,6 +4,7 @@ export default function FooterSection() {
     <footer className="w-full bg-[#0A66C2] py-8 px-4 text-white text-center">
       <div className="max-w-4xl mx-auto space-y-2">
         <div className="font-semibold text-lg">
+          Criado por{" "}
           <a
             href="https://www.linkedin.com/in/leo-miralles/"
             target="_blank"
