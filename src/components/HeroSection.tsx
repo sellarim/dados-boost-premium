@@ -13,15 +13,12 @@ export default function HeroSection() {
           >
             Vagas fresquinhas em dados, todo dia, direto no seu WhatsApp.
           </h1>
-          <img
-            src="/lovable-uploads/fce2c06c-846b-4c6b-9f33-6fd157d48419.png"
-            alt="Logo WhatsApp"
-            className="ml-2 shrink-0 w-10 h-10"
-          />
         </div>
         {/* Subtítulo */}
         <p className="text-lg md:text-xl mb-8 max-w-xl text-center text-muted-foreground">
-          Receba vagas exclusivas, dicas práticas e oportunidades reais antes de todo mundo. Vem acelerar sua carreira na área de dados.
+          Receba vagas exclusivas, dicas práticas e oportunidades reais antes de todo mundo.
+          <br />
+          Vem acelerar sua carreira na área de dados.
         </p>
 
         {/* CTA */}
@@ -50,3 +47,4 @@ export default function HeroSection() {
     </section>
   );
 }
+
