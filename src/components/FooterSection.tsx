@@ -1,7 +1,7 @@
 
 export default function FooterSection() {
   return (
-    <footer className="w-full bg-[#0A66C2] py-8 px-4 text-white text-center">
+    <footer className="w-full bg-background py-8 px-4 text-foreground text-center transition-colors border-t border-muted">
       <div className="max-w-4xl mx-auto space-y-2">
         <div className="font-semibold text-lg">
           Criado por{" "}
@@ -9,7 +9,7 @@ export default function FooterSection() {
             href="https://www.linkedin.com/in/leo-miralles/"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-blue-200 transition-colors"
+            className="underline hover:text-blue-500 dark:hover:text-blue-300 transition-colors"
           >
             Leonardo Miralles
           </a>
@@ -20,7 +20,7 @@ export default function FooterSection() {
             href="https://www.linkedin.com/in/leo-miralles/"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-blue-200 transition-colors"
+            className="underline hover:text-blue-500 dark:hover:text-blue-300 transition-colors"
           >
             Conteúdo diário sobre carreira em dados no LinkedIn
           </a>

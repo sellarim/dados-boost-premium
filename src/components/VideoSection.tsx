@@ -3,8 +3,8 @@ import React from "react";
 
 export default function VideoSection() {
   return (
-    <section className="w-full bg-gray-100 py-10 border-b border-muted flex flex-col items-center">
-      <div className="w-full max-w-2xl aspect-video bg-gray-300 rounded-lg overflow-hidden shadow-lg flex items-center justify-center">
+    <section className="w-full bg-background py-10 border-b border-muted flex flex-col items-center transition-colors">
+      <div className="w-full max-w-2xl aspect-video bg-card rounded-lg overflow-hidden shadow-lg flex items-center justify-center">
         {/* Espaço reservado para o YouTube */}
         <iframe
           className="w-full h-full"
